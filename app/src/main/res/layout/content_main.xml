@@ -17,20 +17,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="0"
-        android:id="@+id/textView"
+        android:id="@+id/resultView"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:textSize="40dp"
-        android:textAlignment="textEnd" />
+        android:textAlignment="textEnd"
+        android:hint="0" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:text="AC"
         android:id="@+id/button"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/resultView"
         android:layout_alignParentStart="true"
         android:layout_alignEnd="@+id/button4"
         android:background="#ffb300" />
@@ -40,8 +40,8 @@
         android:layout_height="80dp"
         android:text="="
         android:id="@+id/button2"
-        android:layout_below="@+id/textView"
-        android:layout_alignEnd="@+id/textView"
+        android:layout_below="@+id/resultView"
+        android:layout_alignEnd="@+id/resultView"
         android:layout_alignStart="@+id/button5"
         android:background="#ffb300" />
 
@@ -160,7 +160,8 @@
         android:id="@+id/button14"
         android:layout_alignBottom="@+id/button13"
         android:layout_toEndOf="@+id/button13"
-        android:background="#ffb300" />
+        android:background="#ffb300"
+        android:nestedScrollingEnabled="false" />
 
     <Button
         android:layout_width="wrap_content"
@@ -180,7 +181,8 @@
         android:id="@+id/button16"
         android:layout_alignBottom="@+id/button15"
         android:layout_alignStart="@+id/button13"
-        android:background="#ffb300" />
+        android:background="#ffb300"
+        android:nestedScrollingEnabled="false" />
 
     <Button
         android:layout_width="wrap_content"
